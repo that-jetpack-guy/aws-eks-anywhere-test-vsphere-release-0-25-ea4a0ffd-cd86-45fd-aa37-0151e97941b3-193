@@ -47,7 +47,7 @@ spec:
   packages:
     disable: true
   workerNodeGroupConfigurations:
-  - count: 3
+  - count: 1
     machineGroupRef:
       kind: VSphereMachineConfig
       name: release-i-0e6c7-ff6ee76
